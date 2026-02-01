@@ -1,0 +1,14 @@
+/venv
+/enclave/.venv
+/enclave/venv-gramine
+/enclave/enclave.manifest
+/enclave/src/__pycache__
+/enclave/models
+
+/src
+/notebooks/images
+/notebooks/.venv
+/notebooks/diagrams
+/notebooks/__pycache__
+
+/csv-files

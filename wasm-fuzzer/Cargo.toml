@@ -1,0 +1,23 @@
+[package]
+name = "wasm-fuzzer"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+libafl = "0.15.2"
+libafl_bolts = "0.15.2"
+wasmtime = "39.0.0"
+wasmtime-wasi = "39.0.0"
+wasmtime-wasi-nn = { version = "39.0.0", features = ["openvino"] }
+walrus = "0.23.3"
+png = "0.17.16"
+image = "0.25.6"
+once_cell = "1.20.2"
+rayon = "1.10.0"
+sha2 = "0.10.8"
+hex = "0.4.3"
+rand = "0.9.0"
+tch = "=0.22.0"
+anyhow = "1.0"
