@@ -1,6 +1,6 @@
-# Walma: Attesting WebAssembly Linear Memory Using Machine Learning
+# Walma: Learning to See Memory Corruption in WebAssembly
 
-This repository contains the artifact for the paper *"Walma: Attesting WebAssembly Linear Memory Using Machine Learning"*.
+This repository contains the artifact for the paper *"Walma: Learning to See Memory Corruption in WebAssembly"*.
 
 Walma is a framework for detecting memory corruption and external tampering in WebAssembly applications by classifying snapshots of linear memory using convolutional neural networks (CNNs).
 
